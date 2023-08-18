@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+h1,
+h2,
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    margin: 0;
+}
+
+header button {
+    height: 60px;
+    width: 180px;
+    border-radius: 6px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+button.start-learning {
+    background: #000;
+    color: #FFFFC8;
+    text-transform: capitalize;
+    margin-left: 26px;
+}
+
+footer {
+    background: #1c1c1c;
+    padding: 40px 0;
+}
+
+.footer span {
+    color: #FFFFC8;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link {
+    display: flex;
+    margin-left: 10px;
+}
+
+.footer-link a {
+    color: #FFFFC8;
+    text-decoration: none;
+    margin-left: 90px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.membership-plan h2 {
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.membership-plan h2 {
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.plan-a {
+    background: #000;
+    border-radius: 12px;
+    max-width: 343px;
+    padding: 60px 40px;
+}
+
+.plan-a h3 span {
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 12px;
+}
+
+.plan-a h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFC8;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+.plans p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 33px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.plans button {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+    padding: 16px 60px;
+    border-radius: 6px;
+    background: #FFFFC8;
+    max-width: 191px;
+    display: block;
+    margin: 0 auto;
+}
+
+.plan-b {
+    background: #FFFFC8;
+    border-radius: 12px;
+    max-width: 343px;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.membership-plan {
+    padding: 60px 0 120px 0;
+}
+
+.plans {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+}
+
+.plan-b h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+.plan-b h3 span {
+    font-size: 18px;
+    line-height: 23px;
+    color: #0B0F01;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 12px;
+}
+
+.plan-b label {
+    position: absolute;
+    top: 16px;
+    background: #000;
+    width: 100%;
+    left: 0;
+    color: #FFFFC8;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.plan-b p {
+    color: #0B0F01;
+}
+
+.testimonial h2 {
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.testimonial h2 span {
+    background: #FFFFC8;
+    border-radius: 8px;
+    padding: 5px 10px 5px 15px;
+    margin: 0 0 0 -15px;
+}
+
+.review {
+    max-width: 360px;
+    padding: 0 20px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.client {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.client h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.client img {
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.review p {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+
+.testimonial {
+    padding-bottom: 40px;
+}
+
+.fun-facts h2 {
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 60px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.fun-facts h2 span {
+    background: #FFFFC8;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    margin: 0;
+}
+
+.fun-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.fun-facts p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 660px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.facts span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.facts {
+    display: flex;
+    width: 100%;
+    max-width: 660px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.facts span b {
+    font-size: 70px;
+    line-height: 90px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+ul.checks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 660px;
+    column-gap: 50px;
+}
+
+ul.checks li {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+    min-width: 37%;
+}
+
+ul.checks li img {
+    margin-right: 10px;
+}
+
+.fun-facts video {
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+}
+
+
+.happy-client h2 {
+    text-align: center;
+    line-height: 40px;
+}
+
+.happy-client ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 120px 0;
+    padding: 0;
+}
+
+.happy-client ul li {
+    display: flex;
+    align-items: center;
+}
+
+.hero-top {
+    background-image: url(./images/heading-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 250px;
+    position: relative;
+}
+
+.hero-heading h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 70px;
+    line-height: 115px;
+    font-weight: 700;
+    max-width: 690px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+ul.features {
+    line-height: 33px;
+    font-size: 22px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+ul.features li {
+    margin-left: 40px;
+}
+
+ul.features li:first-child {
+    margin-left: 0;
+}
+
+.hero button {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    background: #000;
+    color: #FFFFC8;
+    padding: 16px 57px;
+    border-radius: 6px;
+    display: block;
+    margin: 45px auto 98px;
+}
+
+.hero-heading span {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero-heading span img {
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.hero-heading {
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+img.h-patteren {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 667px) and (min-width: 280px) {
+    body  {
+        width: 230%;
+    }
+    .h-patteren{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1180px) and (min-width: 768px) {
+    body  {
+        width: 100%;
+    }
+    .h-patteren{
+        width: 100%;
+    }
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute !important;
+    top:50% !important;
+    right:-20px !important;
+    font-size: 40px !important;
+}

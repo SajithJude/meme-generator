@@ -1,0 +1,71 @@
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  /* Remove default checkbox styling on Safari/Chrome */
+  -moz-appearance: none;
+  /* Remove default checkbox styling on Firefox */
+  appearance: none;
+  /* Remove default checkbox styling */
+  width: 16px;
+  /* Set width of checkbox */
+  height: 16px;
+  /* Set height of checkbox */
+  border-radius: 4px;
+  /* Add rounded corners to checkbox */
+  outline: none;
+  /* Remove outline when checkbox is focused */
+  background-color: white;
+  /* Set background color of checkbox to white */
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713";
+  /* Add checkmark symbol */
+  display: block;
+  /* Display checkmark symbol */
+  text-align: center;
+  /* Center checkmark symbol */
+  line-height: 16px;
+  /* Set line height to match checkbox height */
+  font-weight: 900;
+  /* Make checkmark symbol even bolder */
+  background: #1c1d1f;
+  border-color: #1c1d1f;
+  color: #fff;
+  font-size: 12px;
+}
+
+.completed i {
+  color: black;
+  /*background-color: yellow;*/
+}
+
+.cpf {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #686868;
+}
+
+.check-color {
+  vertical-align: middle;
+  border-style: none;
+  background-color: #4bc750;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.playing {
+  background-color: #E0E0E0 !important;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+h1,h2,h3 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+/* .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 123px; */
+}
+h1 {
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    margin: 0;
+}
+
+header button {
+    /* height: 60px;
+    width: 180px; */
+    border-radius: 6px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+button.start-learning {
+    background: #000;
+    color: #FFFFC8;
+    text-transform: capitalize;
+    margin-left: 26px;
+}
+
+footer {
+    background: #1c1c1c;
+    padding: 40px 0;
+}
+
+.footer span {
+    color: #FFFFC8;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+
+/* .footer-link {
+    display: flex;
+    margin-left: 10px;
+} */
+
+/* .footer-link a {
+    color: #FFFFC8;
+    text-decoration: none;
+    margin-left: 90px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: 'Space Grotesk', sans-serif;
+} */
+
+/* =============   Sign up CSS   =========== */
+
+/* .signup-area {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 60px 20px;
+} */
+
+.signup-area h1 {
+    font-size: 72px;
+    line-height: 92px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.signup-area span {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 60px;
+}
+
+
+.signup-option button {
+    background: #fff;
+    padding: 13px 0;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: 1px solid #1C1C1C;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+
+
+.signup-option {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #686868;
+    margin-bottom: 32px;
+}
+.signup-option button img {
+    margin-right: 5px;
+}
+
+
+.signup-area form label {
+    color: #686868;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Inter', sans-serif;
+}
+
+.signup-field input {
+    background: #F6F6F6;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    padding: 16px 16px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 22px;
+}
+
+.signup-field input[type="email"] {
+    padding-left: 48px;
+    display: block;
+    width: 100%;
+}
+.signup-field {
+    position: relative;
+}
+
+.signup-field img {
+    position: absolute;
+    top: 48px;
+    left: 17px;
+}
+
+button.signup-m {
+    background: #1C1C1C;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    color: #FFFFC8;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Inter', sans-serif;
+    padding: 14px 20px;
+}
+
+.signup-area form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .signup-field {
+    width: calc(50% - 16px);
+} */
+
+input.f-img {
+    padding-left: 48px;
+    display: block;
+    width: 100%;
+}
